@@ -5,6 +5,15 @@ A [Streamlit](https://streamlit.io) demo [written in pure Python](https://github
 
 ![Final App Animation](https://github.com/streamlit/demo-uber-nyc-pickups/raw/main/uber_demo.png "Uber demo")
 
+## Run with Docker
+```
+docker run -d \
+           --rm \
+           --name streamlit_demo_uber_nyc_pickups \
+           -p 8501:8501 \
+           ghcr.io/ragingtiger/demo-uber-nyc-pickups:master
+```
+
 ## Run this demo locally
 ```
 pip install --upgrade streamlit
